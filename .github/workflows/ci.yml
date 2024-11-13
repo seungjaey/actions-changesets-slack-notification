@@ -57,7 +57,12 @@ jobs:
         id: test-action
         uses: ./
         with:
-          milliseconds: 2000
+          WEB_HOOK_URL: 2000
+          OWNER: 1
+          AUTHOR: 1
+          GITHUB_URL: 3
+          REPOSITORY_NAME: 1
+          CHANGESET_MESSAGE: 1
 
       - name: Print Output
         id: output
