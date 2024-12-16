@@ -1,23 +1,46 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'actions-changesets-slack-notification'
+description: 'changesets 으로 배포된 패키지에 대한 알림을 slack 으로 제공합니다.'
+author: 'seungjaey'
 
-# Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
-  icon: 'heart'
+  icon: 'message-circle'
   color: 'red'
 
-# Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
-    required: true
-    default: '1000'
+  TITLE:
+    description: 'Title'
+    required: false
+    default: '📦 패키지 배포 알림'
 
-# Define your outputs here.
-outputs:
-  time:
-    description: 'Your output description here'
+  WEB_HOOK_URL:
+    description: 'Webhook URL'
+    required: true
+    default: ''
+
+  OWNER:
+    description: 'Owner'
+    required: true
+    default: ''
+
+  AUTHOR:
+    description: 'Author'
+    required: true
+    default: ''
+
+  GITHUB_URL:
+    description: 'Github URL'
+    required: false
+    default: 'https://github.com/'
+
+  REPOSITORY_NAME:
+    description: 'Repository name'
+    required: true
+    default: ''
+
+  CHANGESET_MESSAGE:
+    description: 'Changeset packages'
+    required: true
+    default: ''
 
 runs:
   using: node20

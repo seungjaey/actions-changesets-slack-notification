@@ -1,4 +1,5 @@
-import './sourcemap-register.cjs';/******/ var __webpack_modules__ = ({
+import './sourcemap-register.cjs';import { createRequire as __WEBPACK_EXTERNAL_createRequire } from "module";
+/******/ var __webpack_modules__ = ({
 
 /***/ 4914:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
@@ -29259,217 +29260,217 @@ module.exports = {
 /***/ 2613:
 /***/ ((module) => {
 
-module.exports = require("assert");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("assert");
 
 /***/ }),
 
 /***/ 290:
 /***/ ((module) => {
 
-module.exports = require("async_hooks");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("async_hooks");
 
 /***/ }),
 
 /***/ 181:
 /***/ ((module) => {
 
-module.exports = require("buffer");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("buffer");
 
 /***/ }),
 
 /***/ 5317:
 /***/ ((module) => {
 
-module.exports = require("child_process");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("child_process");
 
 /***/ }),
 
 /***/ 4236:
 /***/ ((module) => {
 
-module.exports = require("console");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("console");
 
 /***/ }),
 
 /***/ 6982:
 /***/ ((module) => {
 
-module.exports = require("crypto");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("crypto");
 
 /***/ }),
 
 /***/ 1637:
 /***/ ((module) => {
 
-module.exports = require("diagnostics_channel");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("diagnostics_channel");
 
 /***/ }),
 
 /***/ 4434:
 /***/ ((module) => {
 
-module.exports = require("events");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("events");
 
 /***/ }),
 
 /***/ 9896:
 /***/ ((module) => {
 
-module.exports = require("fs");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("fs");
 
 /***/ }),
 
 /***/ 8611:
 /***/ ((module) => {
 
-module.exports = require("http");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("http");
 
 /***/ }),
 
 /***/ 5675:
 /***/ ((module) => {
 
-module.exports = require("http2");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("http2");
 
 /***/ }),
 
 /***/ 5692:
 /***/ ((module) => {
 
-module.exports = require("https");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("https");
 
 /***/ }),
 
 /***/ 9278:
 /***/ ((module) => {
 
-module.exports = require("net");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("net");
 
 /***/ }),
 
 /***/ 8474:
 /***/ ((module) => {
 
-module.exports = require("node:events");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:events");
 
 /***/ }),
 
 /***/ 7075:
 /***/ ((module) => {
 
-module.exports = require("node:stream");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:stream");
 
 /***/ }),
 
 /***/ 7975:
 /***/ ((module) => {
 
-module.exports = require("node:util");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:util");
 
 /***/ }),
 
 /***/ 857:
 /***/ ((module) => {
 
-module.exports = require("os");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("os");
 
 /***/ }),
 
 /***/ 6928:
 /***/ ((module) => {
 
-module.exports = require("path");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("path");
 
 /***/ }),
 
 /***/ 2987:
 /***/ ((module) => {
 
-module.exports = require("perf_hooks");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("perf_hooks");
 
 /***/ }),
 
 /***/ 3480:
 /***/ ((module) => {
 
-module.exports = require("querystring");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("querystring");
 
 /***/ }),
 
 /***/ 2203:
 /***/ ((module) => {
 
-module.exports = require("stream");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("stream");
 
 /***/ }),
 
 /***/ 3774:
 /***/ ((module) => {
 
-module.exports = require("stream/web");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("stream/web");
 
 /***/ }),
 
 /***/ 3193:
 /***/ ((module) => {
 
-module.exports = require("string_decoder");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("string_decoder");
 
 /***/ }),
 
 /***/ 3557:
 /***/ ((module) => {
 
-module.exports = require("timers");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("timers");
 
 /***/ }),
 
 /***/ 4756:
 /***/ ((module) => {
 
-module.exports = require("tls");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("tls");
 
 /***/ }),
 
 /***/ 2018:
 /***/ ((module) => {
 
-module.exports = require("tty");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("tty");
 
 /***/ }),
 
 /***/ 7016:
 /***/ ((module) => {
 
-module.exports = require("url");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("url");
 
 /***/ }),
 
 /***/ 9023:
 /***/ ((module) => {
 
-module.exports = require("util");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("util");
 
 /***/ }),
 
 /***/ 8253:
 /***/ ((module) => {
 
-module.exports = require("util/types");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("util/types");
 
 /***/ }),
 
 /***/ 8167:
 /***/ ((module) => {
 
-module.exports = require("worker_threads");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("worker_threads");
 
 /***/ }),
 
 /***/ 3106:
 /***/ ((module) => {
 
-module.exports = require("zlib");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("zlib");
 
 /***/ }),
 
@@ -40169,60 +40170,6 @@ var z = /*#__PURE__*/Object.freeze({
 
 
 
-;// CONCATENATED MODULE: external "node:crypto"
-const external_node_crypto_namespaceObject = require("node:crypto");
-;// CONCATENATED MODULE: ./node_modules/nanoid/url-alphabet/index.js
-const urlAlphabet =
-  'useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict'
-
-;// CONCATENATED MODULE: ./node_modules/nanoid/index.js
-
-
-
-const POOL_SIZE_MULTIPLIER = 128
-let pool, poolOffset
-function fillPool(bytes) {
-  if (!pool || pool.length < bytes) {
-    pool = Buffer.allocUnsafe(bytes * POOL_SIZE_MULTIPLIER)
-    external_node_crypto_namespaceObject.webcrypto.getRandomValues(pool)
-    poolOffset = 0
-  } else if (poolOffset + bytes > pool.length) {
-    external_node_crypto_namespaceObject.webcrypto.getRandomValues(pool)
-    poolOffset = 0
-  }
-  poolOffset += bytes
-}
-function random(bytes) {
-  fillPool((bytes -= 0))
-  return pool.subarray(poolOffset - bytes, poolOffset)
-}
-function customRandom(alphabet, defaultSize, getRandom) {
-  let mask = (2 << (31 - Math.clz32((alphabet.length - 1) | 1))) - 1
-  let step = Math.ceil((1.6 * mask * defaultSize) / alphabet.length)
-  return (size = defaultSize) => {
-    let id = ''
-    while (true) {
-      let bytes = getRandom(step)
-      let i = step
-      while (i--) {
-        id += alphabet[bytes[i] & mask] || ''
-        if (id.length === size) return id
-      }
-    }
-  }
-}
-function customAlphabet(alphabet, size = 21) {
-  return customRandom(alphabet, size, random)
-}
-function nanoid(size = 21) {
-  fillPool((size -= 0))
-  let id = ''
-  for (let i = poolOffset - size; i < poolOffset; i++) {
-    id += urlAlphabet[pool[i] & 63]
-  }
-  return id
-}
-
 ;// CONCATENATED MODULE: ./node_modules/@fxts/core/dist/esm/_internal/utils.js
 function utils_isIterable(a) {
     return typeof (a === null || a === void 0 ? void 0 : a[Symbol.iterator]) === "function";
@@ -43326,10 +43273,9 @@ var core = __nccwpck_require__(7484);
 
 
 
-
 const MessageScheme = z.object({
     name: z.string(),
-    version: z.string()
+    version: z.string(),
 });
 const MessagesScheme = z.array(MessageScheme);
 const parseMessage = (message) => {
@@ -43341,12 +43287,9 @@ const parseMessage = (message) => {
         return [];
     }
 };
-/**
- * The main function for the action.
- * @returns {Promise<void>} Resolves when the action is complete.
- */
 async function run() {
     try {
+        const TITLE = core.getInput('TITLE');
         const WEB_HOOK_URL = core.getInput('WEB_HOOK_URL');
         const OWNER = core.getInput('OWNER');
         const AUTHOR = core.getInput('AUTHOR');
@@ -43355,7 +43298,9 @@ async function run() {
         const CHANGESET_MESSAGE = core.getInput('CHANGESET_MESSAGE');
         const webhook = new dist/* IncomingWebhook */.iv(WEB_HOOK_URL);
         const messages = parseMessage(CHANGESET_MESSAGE);
-        if (esm_isEmpty(messages)) {
+        const hasInvalidInput = esm_some(esm_isEmpty, [AUTHOR, WEB_HOOK_URL, REPOSITORY_NAME, CHANGESET_MESSAGE]);
+        if (hasInvalidInput) {
+            core.setFailed('Invalid input');
             return;
         }
         await webhook.send({
@@ -43364,10 +43309,10 @@ async function run() {
                     type: 'header',
                     text: {
                         type: 'plain_text',
-                        text: '📦 패키지 배포 알림',
-                        emoji: true
-                    }
-                }
+                        text: TITLE,
+                        emoji: true,
+                    },
+                },
             ],
             attachments: [
                 {
@@ -43378,44 +43323,34 @@ async function run() {
                             fields: [
                                 {
                                     type: 'mrkdwn',
-                                    text: '*Repository:*'
+                                    text: '*Repository:*',
                                 },
                                 {
                                     type: 'mrkdwn',
-                                    text: `*<${GITHUB_URL}/${OWNER}/${REPOSITORY_NAME}|${REPOSITORY_NAME}>*`
+                                    text: `*<${GITHUB_URL}/${OWNER}/${REPOSITORY_NAME}|${REPOSITORY_NAME}>*`,
                                 },
                                 {
                                     type: 'mrkdwn',
-                                    text: '*Author:*'
+                                    text: '*Author:*',
                                 },
                                 {
                                     type: 'mrkdwn',
-                                    text: `*${AUTHOR}*`
-                                }
-                            ]
+                                    text: `*${AUTHOR}*`,
+                                },
+                            ],
                         },
                         ...messages.map(({ name, version }) => {
                             return {
                                 type: 'section',
                                 text: {
                                     type: 'mrkdwn',
-                                    text: `${name}@${version}`
+                                    text: `<${GITHUB_URL}/${OWNER}/${REPOSITORY_NAME}/pkgs/npm/${name.replace(`@${OWNER}\/`, '')}|${name}@${version}>`,
                                 },
-                                accessory: {
-                                    type: 'button',
-                                    text: {
-                                        type: 'plain_text',
-                                        text: '링크',
-                                        emoji: true
-                                    },
-                                    url: `${GITHUB_URL}/${OWNER}/${REPOSITORY_NAME}/pkgs/npm/${name.replace(`@${OWNER}\/`, '')}`,
-                                    action_id: nanoid()
-                                }
                             };
-                        })
-                    ]
-                }
-            ]
+                        }),
+                    ],
+                },
+            ],
         });
     }
     catch (error) {
@@ -43425,9 +43360,6 @@ async function run() {
 }
 
 ;// CONCATENATED MODULE: ./src/index.ts
-/**
- * The entrypoint for the action.
- */
 
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
 run();

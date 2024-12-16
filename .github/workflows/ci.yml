@@ -57,13 +57,10 @@ jobs:
         id: test-action
         uses: ./
         with:
-          WEB_HOOK_URL: 2000
-          OWNER: 1
-          AUTHOR: 1
-          GITHUB_URL: 3
-          REPOSITORY_NAME: 1
-          CHANGESET_MESSAGE: 1
-
-      - name: Print Output
-        id: output
-        run: echo "${{ steps.test-action.outputs.time }}"
+          TITLE: '🚀 Package has been deployed'
+          WEB_HOOK_URL: 'https://hooks.slack.com/services/tt'
+          OWNER: 'thefarmersfront'
+          AUTHOR: 'seungjaey'
+          GITHUB_URL: 'https://github.com'
+          REPOSITORY_NAME: 'kurly-web-session'
+          CHANGESET_MESSAGE: '[{"name":"@thefarmersfront/session-core","version":"0.0.60"},{"name":"@thefarmersfront/session-next","version":"0.0.60"},{"name":"@thefarmersfront/session-react","version":"0.0.60"},{"name":"@thefarmersfront/session-utils","version":"0.0.57"}]'
