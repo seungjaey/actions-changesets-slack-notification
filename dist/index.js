@@ -43304,6 +43304,8 @@ async function run() {
             return;
         }
         await webhook.send({
+            username: '패키지 배포 알리미',
+            icon_url: 'https://res.kurly.com/internal/package-deploy-profile3.png',
             blocks: [
                 {
                     type: 'header',

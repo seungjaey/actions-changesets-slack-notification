@@ -57,8 +57,8 @@ jobs:
         id: test-action
         uses: ./
         with:
-          TITLE: '🚀 Package has been deployed'
-          WEB_HOOK_URL: 'https://hooks.slack.com/services/tt'
+          TITLE: '테스트3'
+          WEB_HOOK_URL: 'https://hooks.slack.com/services/123'
           OWNER: 'thefarmersfront'
           AUTHOR: 'seungjaey'
           GITHUB_URL: 'https://github.com'
